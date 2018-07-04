@@ -1,0 +1,56 @@
+[
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 114,
+    "ClosingPrice": 419,
+    "Diff": 20
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 188,
+    "ClosingPrice": 446,
+    "Diff": 49
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 164,
+    "ClosingPrice": 221,
+    "Diff": 20
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 255,
+    "ClosingPrice": 364,
+    "Diff": 47
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 109,
+    "ClosingPrice": 104,
+    "Diff": 38
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 192,
+    "ClosingPrice": 190,
+    "Diff": 43
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 411,
+    "ClosingPrice": 252,
+    "Diff": 37
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 486,
+    "ClosingPrice": 342,
+    "Diff": 40
+  },
+  {
+    "Stock": "Generic Stock",
+    "OpeningPrice": 381,
+    "ClosingPrice": 190,
+    "Diff": 16
+  }
+]
