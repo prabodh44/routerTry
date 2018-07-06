@@ -1,5 +1,5 @@
 routerTry.controller('ListedStocksController', function ($scope, $state) {
-  
+
   $scope.menuItems = [{
       "menuName": "Port Folio",
       "action": "portfolio"
@@ -32,7 +32,7 @@ routerTry.controller('ListedStocksController', function ($scope, $state) {
   //   }
 
   //   var result = [];
-	// 	searchString = searchString.toLowerCase();
+  // 	searchString = searchString.toLowerCase();
   // });
 
   // angular.forEach($scope.menuItems, function(item){
@@ -45,19 +45,19 @@ routerTry.controller('ListedStocksController', function ($scope, $state) {
 
 });
 
-routerTry.filter('searchFor', function(){
-  return function(item, searchString){
+routerTry.filter('searchFor', function () {
+  return function (item, searchString) {
     var filteredArray = [];
-    if(!searchString){
+    if (!searchString) {
       filteredArray = item;
-    }else{
-      for(var i = 0; i < item.length; i++){
-        if(item[i].menuName.toLowerCase().indexOf(searchString) !== -1){
+    } else {
+      for (var i = 0; i < item.length; i++) {
+        if (item[i].menuName.toLowerCase().indexOf(searchString) !== -1) {
           filteredArray.push(item[i]);
         }
       }
     }
-   
+
     return filteredArray;
   }
 })
