@@ -1,0 +1,8 @@
+<h1>This is the listed stocks controller</h1>
+<input type="text" ng-model="searchString">
+skdj: {{searchString}}
+<ul>
+    <li ng-repeat="menuItem in menuItems | searchFor:searchString">
+        {{menuItem.menuName}}
+    </li>
+</ul>

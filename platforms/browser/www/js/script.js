@@ -18,5 +18,9 @@ routerTry.config(function($stateProvider, $urlRouterProvider){
         url: '/nepse',
         templateUrl: 'views/Nepse.html',
         controller: 'NepseController'
+    }).state('listedstocks', {
+        url: '/listedstocks',
+        templateUrl: 'views/ListedStocks.html',
+        controller: 'ListedStocksController'
     });
 });
